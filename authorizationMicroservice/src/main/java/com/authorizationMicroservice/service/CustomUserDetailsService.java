@@ -34,6 +34,12 @@ public class CustomUserDetailsService implements UserDetailsService {
 
 		return new User(user.getUsername(), user.getPassword(), new ArrayList<>());
 		
+<<<<<<< HEAD
 		  //removed added comments
+		//hello there i am new branch
+=======
+		  //removed added comments ok done creating new branch
+>>>>>>> branch 'PriyankaAmbati-patch-1' of https://github.com/PriyankaAmbati/SpringSample.git
 	}
 }
+//trying to merge

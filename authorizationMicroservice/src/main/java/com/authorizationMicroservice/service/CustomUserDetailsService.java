@@ -42,3 +42,4 @@ public class CustomUserDetailsService implements UserDetailsService {
 >>>>>>> branch 'PriyankaAmbati-patch-1' of https://github.com/PriyankaAmbati/SpringSample.git
 	}
 }
+//trying to merge

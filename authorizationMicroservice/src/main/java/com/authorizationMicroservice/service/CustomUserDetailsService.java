@@ -1,7 +1,6 @@
 package com.authorizationMicroservice.service;
 
 import java.util.ArrayList;
-//hi from github
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +33,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 		System.out.println("User found: " + user.getUsername());
 
 		return new User(user.getUsername(), user.getPassword(), new ArrayList<>());
-		return new User;
-		  
+		
+		  //removed added comments
 	}
 }

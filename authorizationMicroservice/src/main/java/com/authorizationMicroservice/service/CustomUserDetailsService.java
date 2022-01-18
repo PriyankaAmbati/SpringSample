@@ -35,5 +35,6 @@ public class CustomUserDetailsService implements UserDetailsService {
 		return new User(user.getUsername(), user.getPassword(), new ArrayList<>());
 		
 		  //removed added comments
+		//hello there i am new branch
 	}
 }

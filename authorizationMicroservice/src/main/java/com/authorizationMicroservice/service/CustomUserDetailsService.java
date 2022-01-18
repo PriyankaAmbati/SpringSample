@@ -34,6 +34,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 		System.out.println("User found: " + user.getUsername());
 
 		return new User(user.getUsername(), user.getPassword(), new ArrayList<>());
+		return new User;
 		  
 	}
 }
